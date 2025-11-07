@@ -1,0 +1,22 @@
+import React from 'react';
+
+const SunIcon = ({ className = "w-6 h-6", color = "currentColor", ...props }) => (
+  <svg
+    className={className}
+    fill={color}
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10z" />
+    <path d="M12 1v2" />
+    <path d="M12 21v2" />
+    <path d="M4.22 4.22l1.42 1.42" />
+    <path d="M18.36 18.36l1.42 1.42" />
+    <path d="M1 12h2" />
+    <path d="M21 12h2" />
+    <path d="M4.22 19.78l1.42-1.42" />
+    <path d="M18.36 5.64l1.42-1.42" />
+  </svg>
+);
+
+export default SunIcon;
